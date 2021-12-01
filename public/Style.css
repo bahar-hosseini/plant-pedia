@@ -1,6 +1,7 @@
 body{
     background-image: url(./images/plant.jpeg);
-    
+    margin: 0;
+    padding: 0;
 }
 .title{
     color:#D0F0C0;
