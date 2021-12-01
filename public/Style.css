@@ -1,0 +1,52 @@
+body{
+    background-image: url(./images/plant.jpeg);
+    
+}
+.title{
+    color:#D0F0C0;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.searchInput{
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 40% 7% 40%;
+    padding-left: 30px;
+    padding-right: 30px;
+ 
+}
+.card{
+    background-color: white;
+    color: darkgreen;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    background-color: white;
+    color: darkgreen;
+}
+.cardList{
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.cardContainer:hover {
+    transform: scale(1.05);
+  }
